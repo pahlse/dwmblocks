@@ -2,7 +2,7 @@
 
 Modular status bar for dwm written in c.
 
-# Signaling changes
+## Signaling changes
 
 Most statusbars constantly rerun every script every several seconds to update.
 This is an option here, but a superior choice is giving your module a signal
@@ -20,7 +20,7 @@ along side my volume shortcuts in dwm to only update it when relevant.
 
 Note that all modules must have different signal numbers.
 
-# Clickable modules
+## Clickable modules
 
 Like i3blocks, this build allows you to build in additional actions into your
 scripts in response to click events.  See the above linked scripts for examples
